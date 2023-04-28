@@ -243,7 +243,7 @@ import {
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient"
+          color: "blue-text-gradient",
         },
         {
           name: "tailwindCSS",
@@ -260,11 +260,11 @@ import {
     },
     {
       name: "GPT-3 OpenAI",
-      description: " I developed a responsive and great user landing page interface for GPT OpenAI.",
+      description: "I developed a responsive and great user landing page interface for GPT OpenAI.",
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient"
+          color: "blue-text-gradient",
         },
         {
           name: "css",
@@ -332,7 +332,7 @@ import {
     },
     {
       name: "RealEstate App",
-      description: " I developed a responsive and great user landing page interface for GPT OpenAI.",
+      description: "I developed a responsive and great user landing page interface for GPT OpenAI.",
       tags: [
         {
           name: "react",
@@ -366,7 +366,7 @@ import {
     },
     {
       name: "Travel Companion App",
-      description: " I developed a responsive and great user landing page interface for GPT OpenAI.",
+      description: "I developed a responsive and great user landing page interface for GPT OpenAI.",
       tags: [
         {
           name: "react",
@@ -383,7 +383,7 @@ import {
     },
     {
       name: "A Coffee Shop",
-      description: " I developed a responsive and great user landing page interface for GPT OpenAI.",
+      description: "I developed a responsive and great user landing page interface for GPT OpenAI.",
       tags: [
         {
           name: "react",
@@ -398,30 +398,30 @@ import {
       source_code_link: "https://github.com/SnowzyTech/Modern-UI-UX-GPT-3",
       live_code_link: "https://gptui.netlify.app/",
     },
+    // {
+    // name: "Google Clone",
+    // description: " I developed a responsive and great user landing page interface for GPT OpenAI.",
+    // tags: [
+    //   {
+    //     name: "react",
+    //     color: "blue-text-gradient"
+    //   },
+    //   {
+    //     name: "css",
+    //     color: "pink-text-gradient",
+    //   },
+    // ],
+    // image: google,
+    // source_code_link: "https://github.com/SnowzyTech/Modern-UI-UX-GPT-3",
+    // live_code_link: "https://gptui.netlify.app/",
+    // },
     {
-    name: "Google Clone",
-    description: " I developed a responsive and great user landing page interface for GPT OpenAI.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient"
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: google,
-    source_code_link: "https://github.com/SnowzyTech/Modern-UI-UX-GPT-3",
-    live_code_link: "https://gptui.netlify.app/",
-  },
-  {
     name: "Video Sharing App",
-    description: " I developed a responsive and great user landing page interface for GPT OpenAI.",
+    description: "I developed a responsive and great user landing page interface for GPT OpenAI.",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "typescript",
@@ -440,32 +440,32 @@ import {
     image: tiktik,
     source_code_link: "https://github.com/SnowzyTech/Modern-UI-UX-GPT-3",
     live_code_link: "https://tiktik-app-zytv.vercel.app/",
-  },
-  {
-    name: "Tesla Landing Page",
-    description: " I developed a responsive and great user landing page interface for GPT OpenAI.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient"
-      },
-      {
-        name: "typescript",
-        color: "pink-text-gradient",
-      },
+    },
+    // {
+    // name: "Tesla Landing Page",
+    // description: " I developed a responsive and great user landing page interface for GPT OpenAI.",
+    // tags: [
+    //   {
+    //     name: "react",
+    //     color: "blue-text-gradient",
+    //   },
+    //   {
+    //     name: "typescript",
+    //     color: "pink-text-gradient",
+    //   },
       
-    ],
-    image: tess,
-    source_code_link: "https://github.com/SnowzyTech/Tesla_LangingPage_clone",
-    live_code_link: "https://tesla-langing-page-clone.vercel.app/",
-  },
-  {
+    // ],
+    // image: tess,
+    // source_code_link: "https://github.com/SnowzyTech/Tesla_LangingPage_clone",
+    // live_code_link: "https://tesla-langing-page-clone.vercel.app/",
+    // },
+    {
     name: "Metavserse UI/UX",
     description: " I developed a responsive and great user landing page interface for GPT OpenAI.",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "typescript",
@@ -476,7 +476,7 @@ import {
     image: metaverse,
     source_code_link: "https://github.com/SnowzyTech/Modern-UI-UX-GPT-3",
     live_code_link: "https://metaversuswebsite.netlify.app/",
-  },
+    }
   ];
   
   export { services, myImage, technologies, experiences, education, testimonials, projects };

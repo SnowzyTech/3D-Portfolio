@@ -15,8 +15,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
     >
       <Tilt options={{
           max: 45,
-          sclae: 1,
-          speed: 450
+          scale: 1,
+          speed: 450,
       }}
        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
@@ -54,7 +54,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
-            <p key={tag.name}
+            <p key={`${name}-${tag.name}`}
               className={`text-[14px] ${tag.color}`}
             >
               #{tag.name}
@@ -87,7 +87,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20  flex md:justify-center sm:items-center sm:justify-center md:items-center md:gap-17 flex-wrap gap-7'>
+      <div className='mt-20  flex flex-wrap gap-7'>
          {projects.map((project, index) => (
           <ProjectCard 
             key={`project-${index}`}
