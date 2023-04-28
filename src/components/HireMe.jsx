@@ -3,7 +3,7 @@ import React from 'react'
 import { circular, circularadobe, frontend } from '../assets'
 const HireMe = () => {
   return (
-    <div className='fixed left-1 bottom-4 flex items-center overflow-hidden justify-center'>
+    <div className='hidden  fixed left-1 bottom-4 lg:flex items-center overflow-hidden justify-center'>
       <div className='w-48 h-auto flex items-center relative justify-center'>
         <img src={frontend} className="animate-spin-slow" alt="" />
 
